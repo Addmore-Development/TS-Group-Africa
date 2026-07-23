@@ -7,7 +7,7 @@ header{background:var(--dark);position:sticky;top:0;z-index:20}.nav{height:78px;
 .province-grid,.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.province-card,.card{background:white;border:1px solid var(--line);box-shadow:0 12px 35px rgba(14,50,35,.08);overflow:hidden}.province-card{padding:28px}.province-card h3{font-size:25px;margin:4px 0}.province-card strong{color:var(--green)}
 .card img{width:100%;height:220px;object-fit:cover}.card-body{padding:20px}.card h3{font-size:22px;line-height:1.2;margin:5px 0}.location{color:var(--green);font-size:12px;text-transform:uppercase;font-weight:bold}.meta{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.meta span{background:var(--mint);font-size:12px;padding:5px 8px}.card-actions{display:flex;gap:8px;margin-top:16px}
 .filters{background:white;border-top:4px solid var(--green);padding:22px;display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-bottom:28px;box-shadow:0 10px 30px rgba(0,0,0,.07)}label{font-size:12px;font-weight:bold}select,input,textarea{width:100%;padding:12px;border:1px solid var(--line);background:white}.property-layout{display:grid;grid-template-columns:1.4fr .6fr;gap:34px}.property-image{width:100%;height:520px;object-fit:cover}.panel{background:white;border:1px solid var(--line);padding:26px}.amenities{display:flex;gap:10px;flex-wrap:wrap}.amenities span{background:var(--mint);padding:8px 11px;font-size:13px}.footer{background:var(--dark);color:#c9d8d0;padding:55px 0 25px;margin-top:60px}.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:30px}.footer a{display:block;margin:7px 0}.footer-bottom{border-top:1px solid #284638;margin-top:30px;padding-top:20px;font-size:12px}
-@media(max-width:900px){.links{display:none}.province-grid,.cards{grid-template-columns:repeat(2,1fr)}.filters{grid-template-columns:repeat(2,1fr)}.property-layout{grid-template-columns:1fr}}
+@media(max-width:900px){.province-grid,.cards{grid-template-columns:repeat(2,1fr)}.filters{grid-template-columns:repeat(2,1fr)}.property-layout{grid-template-columns:1fr}}
 @media(max-width:620px){.province-grid,.cards,.filters,.footer-grid{grid-template-columns:1fr}.hero h1{font-size:48px}.page-hero h1{font-size:39px}.card-actions{flex-direction:column}}
 
 /* Landscaping service integration */
@@ -32,3 +32,25 @@ font-size:32px;text-decoration:none;box-shadow:0 8px 24px rgba(0,0,0,.25);z-inde
 .home-landscape img{max-height:180px;width:100%;object-fit:cover;border-radius:12px;opacity:.9}
 .home-landscape h2{font-size:1.6rem;margin-bottom:8px}
 .home-landscape p{font-size:.95rem}
+
+/* Mobile hamburger menu */
+.nav-toggle{display:none;flex-direction:column;justify-content:center;align-items:flex-end;gap:6px;width:32px;height:26px;border:0;background:transparent;cursor:pointer;padding:0;margin-left:14px;flex-shrink:0}
+.nav-toggle span{display:block;width:100%;height:2px;background:#fff;border-radius:2px;transition:transform .25s ease,opacity .25s ease}
+.nav-toggle[aria-expanded="true"] span:nth-child(1){transform:translateY(8px) rotate(45deg)}
+.nav-toggle[aria-expanded="true"] span:nth-child(2){opacity:0}
+.nav-toggle[aria-expanded="true"] span:nth-child(3){transform:translateY(-8px) rotate(-45deg)}
+@media(max-width:900px){
+.nav-toggle{display:flex}
+.links{position:fixed;top:78px;left:0;right:0;flex-direction:column;gap:0;background:var(--dark);max-height:0;overflow:hidden;opacity:0;transition:max-height .3s ease,opacity .3s ease}
+.links.open{max-height:420px;opacity:1;border-top:1px solid rgba(255,255,255,.12);box-shadow:0 14px 30px rgba(0,0,0,.25)}
+.links a{padding:16px 24px;width:100%;border-bottom:1px solid rgba(255,255,255,.08)}
+}
+@media(max-width:480px){.nav .btn{display:none}}
+
+/* Services page icon images */
+.service-symbol{overflow:hidden;padding:0}
+.service-symbol img{width:60%;height:60%;object-fit:contain;display:block}
+.province-card .service-symbol{margin-bottom:16px}
+
+/* Contact form status message */
+.form-status{margin:14px 0 0;font-size:13px;color:var(--green);min-height:16px}
