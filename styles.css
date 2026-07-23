@@ -1,4 +1,3 @@
-
 :root{--green:#69a83a;--deep:#163d2d;--dark:#07130e;--mint:#eef6ea;--white:#fff;--text:#26312c;--muted:#6b756f;--line:#dce8d8}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,sans-serif;color:var(--text);background:#fbfcfa;line-height:1.6}a{text-decoration:none;color:inherit}.container{width:min(1180px,calc(100% - 36px));margin:auto}
 header{background:var(--dark);position:sticky;top:0;z-index:20}.nav{height:78px;display:flex;align-items:center;gap:28px}.logo{width:155px}.links{display:flex;gap:22px;margin-left:auto}.links a{color:white;font-size:14px}.links a:hover,.active{color:var(--green)!important}.btn{display:inline-block;border:0;padding:14px 22px;background:var(--green);color:white;font-weight:bold;text-transform:uppercase;font-size:12px;letter-spacing:.05em}.btn-outline{background:transparent;border:1px solid var(--green);color:var(--green)}
@@ -47,10 +46,18 @@ font-size:32px;text-decoration:none;box-shadow:0 8px 24px rgba(0,0,0,.25);z-inde
 }
 @media(max-width:480px){.nav .btn{display:none}}
 
-/* Services page icon images */
-.service-symbol{overflow:hidden;padding:0}
-.service-symbol img{width:60%;height:60%;object-fit:contain;display:block}
-.province-card .service-symbol{margin-bottom:16px}
+/* Service card photos */
+.province-card,.service-icon-card{display:flex;flex-direction:column}
+.province-media,.service-media{position:relative;margin:-28px -28px 20px;height:190px;overflow:hidden}
+.province-media img,.service-media img{width:100%;height:100%;object-fit:cover;display:block}
 
-/* Contact form status message */
+/* Contact form: centered layout + status message */
+.contact-center{display:flex;flex-direction:column;align-items:center;text-align:center;gap:28px}
+.contact-intro{max-width:560px}
+.contact-center .panel{width:100%;max-width:560px;text-align:left}
+.contact-center .panel label{display:block;margin-bottom:16px}
+.contact-center .panel label>span,.contact-center .panel label{font-size:12px;font-weight:bold}
+.contact-center .panel input,.contact-center .panel select,.contact-center .panel textarea{margin-top:6px;border:1px solid #000}
 .form-status{margin:14px 0 0;font-size:13px;color:var(--green);min-height:16px}
+.form-status--success{color:var(--green)}
+.form-status--error{color:#c0392b}

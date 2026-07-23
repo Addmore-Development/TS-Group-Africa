@@ -1,29 +1,37 @@
+(function () {
+  var form = document.getElementById('contactForm');
+  var status = document.getElementById('formStatus');
+  if (!form) return;
 
-(function(){
-  var form=document.getElementById('contactForm');
-  var status=document.getElementById('formStatus');
-  if(!form)return;
-  form.addEventListener('submit', function(e){
+  form.addEventListener('submit', function (e) {
     e.preventDefault();
-    var name=form.name.value.trim();
-    var email=form.email.value.trim();
-    var project=form.project.value.trim();
-    var subject=form.subject.value.trim() || 'Website enquiry';
-    var message=form.message.value.trim();
 
-    var bodyLines=[
-      'Name: '+name,
-      'Email: '+email
-    ];
-    if(project){bodyLines.push('Project type: '+project)}
-    bodyLines.push('');
-    bodyLines.push(message);
+    status.textContent = 'Sending...';
+    status.classList.remove('form-status--success', 'form-status--error');
 
-    var mailto='mailto:sales@tsgroup.africa?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(bodyLines.join('\n'));
-    window.location.href=mailto;
-
-    if(status){
-      status.textContent='Opening your email app to send this enquiry to sales@tsgroup.africa...';
-    }
+    fetch('https://formspree.io/f/mnjebrnn', {
+      method: 'POST',
+      body: new FormData(form),
+      headers: { 'Accept': 'application/json' }
+    })
+      .then(function (response) {
+        if (response.ok) {
+          form.reset();
+          status.textContent = "Thanks — your enquiry has been sent. We'll be in touch soon.";
+          status.classList.add('form-status--success');
+        } else {
+          return response.json().then(function (result) {
+            var message = (result && result.errors)
+              ? result.errors.map(function (err) { return err.message; }).join(', ')
+              : 'Something went wrong. Please try again or email us directly.';
+            status.textContent = message;
+            status.classList.add('form-status--error');
+          });
+        }
+      })
+      .catch(function () {
+        status.textContent = 'Network error — please try again or email us directly.';
+        status.classList.add('form-status--error');
+      });
   });
 })();
