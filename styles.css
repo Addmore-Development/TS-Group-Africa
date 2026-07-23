@@ -4,6 +4,8 @@ header{background:var(--dark);position:sticky;top:0;z-index:20}.nav{height:78px;
 .hero{min-height:560px;display:flex;align-items:center;color:white;background:linear-gradient(90deg,rgba(4,16,11,.94),rgba(4,16,11,.38)),url('https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=2000&q=85') center/cover}.hero h1,.page-hero h1,h2,h3{font-family:Georgia,serif}.hero h1{font-size:clamp(48px,7vw,88px);line-height:1.02;margin:10px 0}.hero h1 span{color:var(--green)}.hero p{max-width:620px;color:#dce7e1}.eyebrow{color:var(--green);font-weight:bold;text-transform:uppercase;letter-spacing:.14em;font-size:12px}
 .page-hero{background:linear-gradient(135deg,var(--dark),var(--deep));color:white;padding:85px 0}.page-hero h1{font-size:52px;margin:5px 0}.section{padding:80px 0}.section-title{text-align:center;max-width:720px;margin:0 auto 38px}.section-title h2{font-size:42px;margin:8px 0}
 .province-grid,.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.province-card,.card{background:white;border:1px solid var(--line);box-shadow:0 12px 35px rgba(14,50,35,.08);overflow:hidden}.province-card{padding:28px}.province-card h3{font-size:25px;margin:4px 0}.province-card strong{color:var(--green)}
+.grid-limit-3>*:nth-child(n+4){display:none}
+.view-all{text-align:center;margin-top:34px}
 .card img{width:100%;height:220px;object-fit:cover}.card-body{padding:20px}.card h3{font-size:22px;line-height:1.2;margin:5px 0}.location{color:var(--green);font-size:12px;text-transform:uppercase;font-weight:bold}.meta{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.meta span{background:var(--mint);font-size:12px;padding:5px 8px}.card-actions{display:flex;gap:8px;margin-top:16px}
 .filters{background:white;border-top:4px solid var(--green);padding:22px;display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-bottom:28px;box-shadow:0 10px 30px rgba(0,0,0,.07)}label{font-size:12px;font-weight:bold}select,input,textarea{width:100%;padding:12px;border:1px solid var(--line);background:white}.property-layout{display:grid;grid-template-columns:1.4fr .6fr;gap:34px}.property-image{width:100%;height:520px;object-fit:cover}.panel{background:white;border:1px solid var(--line);padding:26px}.amenities{display:flex;gap:10px;flex-wrap:wrap}.amenities span{background:var(--mint);padding:8px 11px;font-size:13px}.footer{background:var(--dark);color:#c9d8d0;padding:55px 0 25px;margin-top:60px}.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:30px}.footer a{display:block;margin:7px 0}.footer-bottom{border-top:1px solid #284638;margin-top:30px;padding-top:20px;font-size:12px}
 @media(max-width:900px){.province-grid,.cards{grid-template-columns:repeat(2,1fr)}.filters{grid-template-columns:repeat(2,1fr)}.property-layout{grid-template-columns:1fr}}
@@ -22,7 +24,7 @@ header{background:var(--dark);position:sticky;top:0;z-index:20}.nav{height:78px;
 
 /* WhatsApp floating button */
 .whatsapp-float{
-position:fixed;right:20px;bottom:20px;width:60px;height:60px;border-radius:50%;
+position:fixed;left:20px;bottom:20px;width:60px;height:60px;border-radius:50%;
 background:#25D366;color:#fff;display:flex;align-items:center;justify-content:center;
 font-size:32px;text-decoration:none;box-shadow:0 8px 24px rgba(0,0,0,.25);z-index:9999}
 .whatsapp-float:hover{transform:scale(1.08)}
@@ -43,14 +45,25 @@ font-size:32px;text-decoration:none;box-shadow:0 8px 24px rgba(0,0,0,.25);z-inde
 .links{position:fixed;top:78px;left:0;right:0;flex-direction:column;gap:0;background:var(--dark);max-height:0;overflow:hidden;opacity:0;transition:max-height .3s ease,opacity .3s ease}
 .links.open{max-height:420px;opacity:1;border-top:1px solid rgba(255,255,255,.12);box-shadow:0 14px 30px rgba(0,0,0,.25)}
 .links a{padding:16px 24px;width:100%;border-bottom:1px solid rgba(255,255,255,.08)}
-.nav{ gap: 78px}
 }
 @media(max-width:480px){.nav .btn{display:none}}
 
 /* Service card photos */
 .province-card,.service-icon-card{display:flex;flex-direction:column}
 .province-media,.service-media{position:relative;margin:-28px -28px 20px;height:190px;overflow:hidden}
-.province-media img,.service-media img{width:100%;height:100%;object-fit:cover;display:block}
+.province-media img,.service-media img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s ease}
+.province-card:hover .province-media img,.service-icon-card:hover .service-media img{transform:scale(1.1)}
+
+/* Partners carousel */
+.partners-section{padding:60px 0;overflow:hidden}
+.partners-section .section-title{margin-bottom:34px}
+.partners-carousel{width:100%;overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+.partners-track{display:flex;gap:24px;width:max-content;animation:partners-scroll 32s linear infinite}
+.partners-track:hover{animation-play-state:paused}
+.partner-card{flex:0 0 200px;height:150px;background:transparent;border:0;box-shadow:none;display:flex;align-items:center;justify-content:center;padding:8px}
+.partner-card img{max-width:100%;max-height:100%;object-fit:contain}
+@keyframes partners-scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media(max-width:620px){.partner-card{flex-basis:150px;height:110px;padding:6px}}
 
 /* Contact form: centered layout + status message */
 .contact-center{display:flex;flex-direction:column;align-items:center;text-align:center;gap:28px}
