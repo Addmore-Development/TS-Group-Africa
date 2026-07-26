@@ -5,29 +5,37 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Contact | TS Group Africa</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
-  <link rel="icon" type="image/png" href="assets/favicon.png">
-  <link rel="apple-touch-icon" href="assets/favicon.png">
+<link rel="icon" href="assets/favicon/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon/android-chrome-512x512.png">
+  <link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png">
+  <link rel="manifest" href="assets/favicon/site.webmanifest">
 </head>
 <body>
 
   <header>
     <div class="container nav">
-      <a href="index.html"><img class="logo" src="assets/logo.svg"></a>
-      <nav class="links">
-        <a class="" href="index.html">Home</a>
-        <a class="" href="about.html">About</a>
-        <a class="" href="services.html">Services</a>
-        <a class="" href="properties.html">Properties</a>
-        <a href="contact.html">Contact</a>
-      
+      <a href="index.html"><img class="logo" src="assets/logo.png" alt="TS Group Africa"></a>
+      <nav class="links" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <div class="nav-dropdown">
+          <a href="services.html">Services <span class="nav-dropdown-caret"></span></a>
+          <div class="nav-dropdown-menu">
+            <a href="services.html">All Services</a>
+            <a href="services-corporate.html">Corporate &amp; Hospitality</a>
+            <a href="services-events.html">Conference &amp; Event Management</a>
+            <a href="services-gifts.html">Corporate Gifts &amp; Branding</a>
+            <a href="services-landscaping.html">Gardening &amp; Landscaping</a>
+          </div>
+        </div>
+        <a href="properties.html">Properties</a>
+        <a class="active" href="contact.html">Contact</a>
         <a class="btn nav-cta-mobile" href="contact.html">Start a project</a>
       </nav>
-      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
       <a class="btn" href="contact.html">Start a project</a>
     </div>
   </header>
@@ -45,7 +53,6 @@
 
       <div class="contact-intro">
         <h2>Start a conversation</h2>
-        
       </div>
 
       <form class="panel" id="contactForm">
@@ -66,16 +73,29 @@
             <option value="" disabled selected>Select an option</option>
             <option value="General">General</option>
             <optgroup label="Corporate & Hospitality">
-              <option value="Events & Experiences">Events & Experiences</option>
-              <option value="Hospitality & Venues">Hospitality & Venues</option>
-              <option value="Travel & Destinations">Travel & Destinations</option>
+              <option value="Events & Experiences">Events &amp; Experiences</option>
+              <option value="Hospitality & Venues">Hospitality &amp; Venues</option>
+              <option value="Travel & Destinations">Travel &amp; Destinations</option>
               <option value="Brand Activations">Brand Activations</option>
               <option value="Production Management">Production Management</option>
               <option value="Hospitality Marketing">Hospitality Marketing</option>
             </optgroup>
+            <optgroup label="Conference & Event Management">
+              <option value="Strategic Planning & Concept">Strategic Planning &amp; Concept</option>
+              <option value="Logistics & Operations">Logistics &amp; Operations</option>
+              <option value="Delegate & Speaker Management">Delegate &amp; Speaker Management</option>
+              <option value="Sponsorship & Exhibitions">Sponsorship &amp; Exhibitions</option>
+              <option value="Technology & Hybrid Events">Technology &amp; Hybrid Events</option>
+            </optgroup>
+            <optgroup label="Corporate Gifts & Branding">
+              <option value="Corporate Gifts">Corporate Gifts</option>
+              <option value="Digital Management">Digital Management</option>
+              <option value="Advertising & Media">Advertising &amp; Media</option>
+              <option value="Furniture">Furniture</option>
+            </optgroup>
             <optgroup label="Gardening & Landscaping">
               <option value="Garden Design">Garden Design</option>
-              <option value="Planting & Softscaping">Planting & Softscaping</option>
+              <option value="Planting & Softscaping">Planting &amp; Softscaping</option>
               <option value="Hardscaping">Hardscaping</option>
               <option value="Irrigation Systems">Irrigation Systems</option>
               <option value="Garden Maintenance">Garden Maintenance</option>
@@ -103,14 +123,15 @@
   <footer class="footer">
     <div class="container footer-grid">
       <div>
-        <img class="logo" src="assets/logo.svg">
+        <img class="logo" src="assets/logo.png" alt="TS Group Africa">
         <p>Hospitality, events, destinations and brand experiences across South Africa.</p>
       </div>
       <div>
-        <b>Explore</b>
-        <a href="about.html">About</a>
-        <a href="services.html">Services</a>
-        <a href="properties.html">Properties</a>
+        <b>Services</b>
+        <a href="services-corporate.html">Corporate &amp; Hospitality</a>
+        <a href="services-events.html">Conference &amp; Event Management</a>
+        <a href="services-gifts.html">Corporate Gifts &amp; Branding</a>
+        <a href="services-landscaping.html">Gardening &amp; Landscaping</a>
       </div>
       <div>
         <b>Contact</b>

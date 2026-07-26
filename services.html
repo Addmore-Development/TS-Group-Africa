@@ -3,32 +3,39 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="TS Group Africa provides integrated events, hospitality, property marketing, gardening and professional landscaping services across South Africa.">
+  <meta name="description" content="TS Group Africa provides integrated events, hospitality, property marketing, corporate gifts, advertising and professional landscaping services across South Africa.">
   <title>Services | TS Group Africa</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
-  <link rel="icon" type="image/png" href="assets/favicon.png">
-  <link rel="apple-touch-icon" href="assets/favicon.png">
+<link rel="icon" href="assets/favicon/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon/android-chrome-512x512.png">
+  <link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png">
+  <link rel="manifest" href="assets/favicon/site.webmanifest">
 </head>
 <body>
 
 <header>
   <div class="container nav">
-    <a href="index.html"><img class="logo" src="assets/logo.svg" alt="TS Group Africa"></a>
+    <a href="index.html"><img class="logo" src="assets/logo.png" alt="TS Group Africa"></a>
     <nav class="links" aria-label="Main navigation">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
-      <a class="active" href="services.html">Services</a>
+      <div class="nav-dropdown">
+        <a href="services.html" class="active">Services <span class="nav-dropdown-caret"></span></a>
+        <div class="nav-dropdown-menu">
+          <a href="services.html">All Services</a>
+          <a href="services-corporate.html">Corporate &amp; Hospitality</a>
+          <a href="services-events.html">Conference &amp; Event Management</a>
+          <a href="services-gifts.html">Corporate Gifts &amp; Branding</a>
+          <a href="services-landscaping.html">Gardening &amp; Landscaping</a>
+        </div>
+      </div>
       <a href="properties.html">Properties</a>
-      <a href="contact.html">Contact</a>
-    
       <a class="btn nav-cta-mobile" href="contact.html">Start a project</a>
     </nav>
-    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
     <a class="btn" href="contact.html">Start a project</a>
   </div>
 </header>
@@ -37,181 +44,81 @@
   <div class="container">
     <p class="eyebrow">Integrated solutions</p>
     <h1>One partner. Every detail.</h1>
-    <p>From events, destinations and property marketing to professional landscaping, TS Group Africa brings strategy, creativity and reliable delivery together.</p>
+    <p>From events, hospitality and destinations to corporate gifts, advertising and professional landscaping — TS Group Africa brings strategy, creativity and reliable delivery together.</p>
   </div>
 </section>
 
 <section class="section">
   <div class="container">
     <div class="section-title">
-      <p class="eyebrow">Corporate & hospitality</p>
-      <h2>Experiences that perform</h2>
-      <p>End-to-end support for organisations, venues, destinations and brands.</p>
+      <p class="eyebrow">Our service categories</p>
+      <h2>Everything under one roof</h2>
+      <p>Explore each category to see the full detail of what we deliver.</p>
     </div>
 
-    <div class="province-grid">
+    <div class="category-grid">
 
-      <div class="province-card">
-        <div class="province-media">
-          <img src="assets/Images/Events & Experiences.jpg" alt="Corporate event setup" loading="lazy">
+      <a class="category-card" href="services-corporate.html">
+        <div class="service-media"><img src="assets/Images/Hospitality & Venues.jpg" alt="Corporate and hospitality services" loading="lazy"></div>
+        <div class="category-card-body">
+          <h3>Corporate &amp; Hospitality</h3>
+          <p>Events &amp; experiences, hospitality &amp; venues, travel &amp; destinations, brand activations, production management and hospitality marketing.</p>
+          <span class="btn btn-outline">View services</span>
         </div>
-        <h3>Events & Experiences</h3>
-        <p>Conferences, launches, awards, summits and executive engagements.</p>
-      </div>
+      </a>
 
-      <div class="province-card">
-        <div class="province-media">
-          <img src="assets/Images/Hospitality & Venues.jpg" alt="Hotel lobby hospitality" loading="lazy">
+      <a class="category-card" href="services-events.html">
+        <div class="service-media"><img src="https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?auto=format&fit=crop&w=900&q=80" alt="Conference and event management" loading="lazy"></div>
+        <div class="category-card-body">
+          <h3>Conference &amp; Event Management</h3>
+          <p>End-to-end conference and event delivery — strategic planning, logistics, delegate management, sponsorship, technology and budget control.</p>
+          <span class="btn btn-outline">View services</span>
         </div>
-        <h3>Hospitality & Venues</h3>
-        <p>Venue sourcing, accommodation, delegate and guest experience management.</p>
-      </div>
+      </a>
 
-      <div class="province-card">
-        <div class="province-media">
-          <img src="assets/Images/Travel & Destinations.jpg" alt="Group travel logistics" loading="lazy">
+      <a class="category-card" href="services-gifts.html">
+        <div class="service-media"><img src="https://images.unsplash.com/photo-1513201099705-a9746e1e201f?auto=format&fit=crop&w=900&q=80" alt="Corporate gifts and branding" loading="lazy"></div>
+        <div class="category-card-body">
+          <h3>Corporate Gifts &amp; Branding</h3>
+          <p>Corporate gifts, digital management, advertising &amp; media and tailor-made hospitality furniture.</p>
+          <span class="btn btn-outline">View services</span>
         </div>
-        <h3>Travel & Destinations</h3>
-        <p>Group logistics, transfers, itineraries and destination programmes.</p>
-      </div>
+      </a>
 
-      <div class="province-card">
-        <div class="province-media">
-          <img src="assets/Images/Brand Activations.jpg" alt="Brand activation experience" loading="lazy">
+      <a class="category-card" href="services-landscaping.html">
+        <div class="service-media"><img src="assets/Images/Garden Design.jpg" alt="Gardening and landscaping services" loading="lazy"></div>
+        <div class="category-card-body">
+          <h3>Gardening &amp; Landscaping</h3>
+          <p>Garden design, planting &amp; softscaping, hardscaping, irrigation, garden maintenance and lawn care.</p>
+          <span class="btn btn-outline">View services</span>
         </div>
-        <h3>Brand Activations</h3>
-        <p>Campaigns and physical experiences that connect brands with audiences.</p>
-      </div>
+      </a>
 
-      <div class="province-card">
-        <div class="province-media">
-          <img src="assets/Images/Production Management.png" alt="Event production management" loading="lazy">
-        </div>
-        <h3>Production Management</h3>
-        <p>Technical, creative and operational management through one accountable team.</p>
-      </div>
-
-      <div class="province-card">
-        <div class="province-media">
-          <img src="assets/Images/Hospitality Marketing.jpg" alt="Hospitality marketing strategy" loading="lazy">
-        </div>
-        <h3>Hospitality Marketing</h3>
-        <p>Property positioning, digital marketing, lead generation and business development support.</p>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<section class="section landscape-section" id="landscaping">
-  <div class="container">
-    <div class="landscape-intro">
-      <div>
-        <p class="eyebrow">Beautiful spaces. Naturally designed.</p>
-        <h2>Professional gardening & landscaping</h2>
-        <p>We transform ordinary outdoor areas into healthy, functional and attractive environments for homes, businesses, hospitality properties and commercial developments.</p>
-        <a class="btn" href="contact.html">Request a landscaping quote</a>
-      </div>
-      <img src="assets/landscaping-services.jpeg" alt="TS Group Africa gardening and landscaping services">
-    </div>
-
-    <div class="service-icon-grid">
-
-      <article class="service-icon-card">
-        <div class="service-media">
-          <img src="assets/Images/Garden Design.jpg" alt="Landscape garden design" loading="lazy">
-        </div>
-        <h3>Garden Design</h3>
-        <p>Creative, functional concepts tailored to the site, lifestyle and long-term maintenance needs.</p>
-      </article>
-
-      <article class="service-icon-card">
-        <div class="service-media">
-          <img src="assets/Images/Planting & Softscaping.jpg" alt="Planting and softscaping" loading="lazy">
-        </div>
-        <h3>Planting & Softscaping</h3>
-        <p>Professional selection and installation of trees, shrubs, flowers and ground covers.</p>
-      </article>
-
-      <article class="service-icon-card">
-        <div class="service-media">
-          <img src="assets/Images/hardscaping.jpg" alt="Hardscaping paving and paths" loading="lazy">
-        </div>
-        <h3>Hardscaping</h3>
-        <p>Paving, pathways, retaining walls, edging, decking and durable outdoor features.</p>
-      </article>
-
-      <article class="service-icon-card">
-        <div class="service-media">
-          <img src="assets/Images/irrigation systems.jpg" alt="Irrigation system installation" loading="lazy">
-        </div>
-        <h3>Irrigation Systems</h3>
-        <p>Water-efficient irrigation design, installation and optimisation for healthier gardens.</p>
-      </article>
-
-      <article class="service-icon-card">
-        <div class="service-media">
-          <img src="assets/Images/Garden Maintenance.jpg" alt="Garden maintenance and upkeep" loading="lazy">
-        </div>
-        <h3>Garden Maintenance</h3>
-        <p>Scheduled upkeep, pruning, weeding, fertilising and seasonal care for vibrant gardens.</p>
-      </article>
-
-      <article class="service-icon-card">
-        <div class="service-media">
-          <img src="assets/Images/Lawn Care.jpg" alt="Lawn care and turf management" loading="lazy">
-        </div>
-        <h3>Lawn Care</h3>
-        <p>Mowing, edging, feeding, turf establishment and ongoing lawn management.</p>
-      </article>
-
-    </div>
-  </div>
-</section>
-
-<section class="section why-landscape">
-  <div class="container why-grid">
-    <div>
-      <p class="eyebrow">Why choose us?</p>
-      <h2>Designed, built and maintained with care</h2>
-      <ul class="check-list">
-        <li>Experienced and passionate team</li>
-        <li>Quality materials and sustainable practices</li>
-        <li>Customised solutions for homes, businesses and commercial properties</li>
-        <li>Attention to detail and dependable delivery</li>
-        <li>Competitive pricing with lasting value</li>
-      </ul>
-    </div>
-    <div class="process-grid">
-      <div><strong>01</strong><h3>Design</h3><p>Site assessment and concept development.</p></div>
-      <div><strong>02</strong><h3>Build</h3><p>Professional installation and finishing.</p></div>
-      <div><strong>03</strong><h3>Maintain</h3><p>Planned care to protect the investment.</p></div>
-      <div><strong>04</strong><h3>Enjoy</h3><p>Outdoor spaces that inspire and last.</p></div>
     </div>
   </div>
 </section>
 
 <section class="landscape-benefits">
   <div class="container benefits-grid">
-    <div><span>🏡</span><b>Enhances property value</b></div>
-    <div><span>🌿</span><b>Improves well-being & lifestyle</b></div>
-    <div><span>🌍</span><b>Supports eco-friendly solutions</b></div>
-    <div><span>🌼</span><b>Adds beauty every day</b></div>
+    <div><span>🏆</span><b>12+ years turnkey delivery</b></div>
+    <div><span>🌍</span><b>Reach across Africa</b></div>
+    <div><span>✅</span><b>Level 1 B-BBEE, women-owned</b></div>
+    <div><span>🤝</span><b>One accountable team</b></div>
   </div>
 </section>
 
 <footer class="footer">
   <div class="container footer-grid">
     <div>
-      <img class="logo" src="assets/logo.svg" alt="TS Group Africa">
+      <img class="logo" src="assets/logo.png" alt="TS Group Africa">
       <p>Hospitality, events, destinations, property marketing and landscaping solutions across South Africa.</p>
     </div>
     <div>
-      <b>Explore</b>
-      <a href="about.html">About</a>
-      <a href="services.html">Services</a>
-      <a href="services.html#landscaping">Landscaping</a>
-      <a href="properties.html">Properties</a>
+      <b>Services</b>
+      <a href="services-corporate.html">Corporate &amp; Hospitality</a>
+      <a href="services-events.html">Conference &amp; Event Management</a>
+      <a href="services-gifts.html">Corporate Gifts &amp; Branding</a>
+      <a href="services-landscaping.html">Gardening &amp; Landscaping</a>
     </div>
     <div>
       <b>Contact</b>
