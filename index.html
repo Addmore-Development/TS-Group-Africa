@@ -32,16 +32,22 @@
         </div>
       </div>
       <a href="properties.html">Properties</a>
-      <a class="btn nav-cta-mobile" href="contact.html">Get in Touch</a>
+     <a class="btn nav-cta-mobile" href="contact.html">GET IN TOUCH</a>
     </nav>
     <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
-    <a class="btn" href="contact.html">Get in Touch</a>
+    <a class="btn" href="contact.html">GET IN TOUCH</a>
   </div>
 </header>
 
 <section class="hero">
+  <div class="hero-slides">
+    <div class="hero-slide active" style="background-image:url('assets/Images/Hero/events.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('assets/Images/Hero/exhibit.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('assets/Images/Hero/Landscape.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('assets/Images/Hero/Shuttle.jpg')"></div>
+  </div>
   <div class="container">
     <p class="eyebrow">Hospitality • Events • Destinations</p>
     <h1>Exceptional <span>Experiences.</span><br>Seamlessly Delivered.</h1>
@@ -166,6 +172,18 @@
   </svg>
 </a>
 
+<script>
+  (function () {
+    var slides = document.querySelectorAll('.hero-slide');
+    if (!slides.length) return;
+    var i = 0;
+    setInterval(function () {
+      slides[i].classList.remove('active');
+      i = (i + 1) % slides.length;
+      slides[i].classList.add('active');
+    }, 5000);
+  })();
+</script>
 <script src="nav.js"></script>
 </body>
 </html>

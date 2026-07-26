@@ -357,7 +357,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 100,
     "accommodation": "yes",
-    "image": "assets/images/properties/Sica's Guest House and Conference Centre.jpg",
+    "image": "assets/Images/properties/Sica’s Guest House and Conference Centre.jpg",
     "description": "A versatile Durban hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1036,7 +1036,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 120,
     "accommodation": "yes",
-    "image": "assets/images/properties/Perry's Bridge Hollow.jpg",
+    "image": "assets/Images/properties/Perry’s Bridge Hollow.jpg",
     "description": "A versatile Hazyview hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1816,7 +1816,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 180,
     "accommodation": "yes",
-    "image": "assets/images/properties/Mont d'Or Clarens.jpg",
+    "image": "assets/Images/properties/Mont d’Or Clarens.jpg",
     "description": "A versatile Clarens hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
