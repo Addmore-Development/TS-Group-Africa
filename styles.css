@@ -219,12 +219,13 @@ select,input,textarea{width:100%;padding:12px;border:1px solid var(--line);backg
 .form-status--error{color:#c0392b}
 
 /* Contact split layout — map left, form right */
-.contact-split{display:grid;grid-template-columns:0.85fr 1.15fr;gap:44px;align-items:start;text-align:left}
-.contact-map-col{position:sticky;top:100px}
+.contact-split{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:stretch;text-align:left}
+.contact-map-col{position:sticky;top:100px;display:flex;flex-direction:column}
 .contact-map-col .contact-intro{max-width:none;margin-bottom:20px}
 .contact-map-col .contact-intro h2{margin:0 0 8px}
 .contact-map-col .contact-intro p{color:var(--muted);margin:0}
-.contact-map{border:1px solid var(--line);box-shadow:0 12px 35px rgba(8,28,18,.08);overflow:hidden;line-height:0}
+.contact-map{border:1px solid var(--line);box-shadow:0 12px 35px rgba(8,28,18,.08);overflow:hidden;line-height:0;flex:1;min-height:520px}
+.contact-map iframe{height:100%!important}
 .contact-form-col{width:100%;text-align:left}
 .contact-form-col label{display:block;margin-bottom:16px}
 .contact-form-col label>span,.contact-form-col label{font-size:12px;font-weight:bold}
@@ -232,6 +233,7 @@ select,input,textarea{width:100%;padding:12px;border:1px solid var(--line);backg
 @media(max-width:900px){
   .contact-split{grid-template-columns:1fr}
   .contact-map-col{position:static}
+  .contact-map{min-height:360px}
 }
 
 /* Services category hub */
