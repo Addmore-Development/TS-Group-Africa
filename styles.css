@@ -446,3 +446,22 @@ select,input,textarea{width:100%;padding:12px;border:1px solid var(--line);backg
 .poster-card-list li { position:relative; padding-left:16px; margin-bottom:6px; font-size:14px; color:#333; }
 .poster-card-list li::before { content:"•"; position:absolute; left:0; color:#b8863b; }
 .poster-green .poster-card-list li::before { color:#173a2e; }
+
+.popular-properties{
+  background:var(--dark);
+  /* color:#fff; */
+}
+.popular-properties .section-title p.eyebrow{
+  color:var(--gold);
+}
+.popular-properties .section-title h2{
+  color:var(--gold);
+}
+.popular-properties .btn-outline{
+  border-color:var(--gold);
+  color:var(--gold);
+}
+.popular-properties .btn-outline:hover{
+  background:var(--gold);
+  color:var(--dark);
+}
