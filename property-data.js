@@ -7,7 +7,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 350,
     "accommodation": "yes",
-    "image": "assets/images/properties/four seasons.jpg",
+    "image": "assets/Images/properties/four seasons.jpg",
     "description": "A versatile Auckland Park hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -25,7 +25,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 80,
     "accommodation": "yes",
-    "image": "assets/images/properties/the view botique.jpg",
+    "image": "assets/Images/properties/the view botique.jpg",
     "description": "A versatile Auckland Park hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -41,7 +41,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 150,
     "accommodation": "yes",
-    "image": "assets/images/properties/Protea Hotel pretoria.jpg",
+    "image": "assets/Images/properties/Protea Hotel pretoria.jpg",
     "description": "A versatile Pretoria hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -57,7 +57,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 120,
     "accommodation": "yes",
-    "image": "assets/images/properties/mahnattan Hotel.jpg",
+    "image": "assets/Images/properties/mahnattan Hotel.jpg",
     "description": "A versatile Pretoria hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -74,7 +74,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 350,
     "accommodation": "yes",
-    "image": "assets/images/properties/Protea Hotel Fire & Ice! Pretoria Menlyn.jpg",
+    "image": "assets/Images/properties/Protea Hotel Fire & Ice! Pretoria Menlyn.jpg",
     "description": "A versatile Pretoria hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -91,7 +91,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 380,
     "accommodation": "yes",
-    "image": "assets/images/properties/RH Hotel Pretoria.jpg",
+    "image": "assets/Images/properties/RH Hotel Pretoria.jpg",
     "description": "A versatile Pretoria hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -107,7 +107,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 100,
     "accommodation": "yes",
-    "image": "assets/images/properties/Riboville Boutique Hotel.jpg",
+    "image": "assets/Images/properties/Riboville Boutique Hotel.jpg",
     "description": "A versatile Sandton hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -124,7 +124,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 350,
     "accommodation": "yes",
-    "image": "assets/images/properties/Hyatt Regency Johannesburg.jpg",
+    "image": "assets/Images/properties/Hyatt Regency Johannesburg.jpg",
     "description": "A versatile Rosebank hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -140,7 +140,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 300,
     "accommodation": "yes",
-    "image": "assets/images/properties/Crowne Plaza Johannesburg – The Rosebank.jpg",
+    "image": "assets/Images/properties/Crowne Plaza Johannesburg – The Rosebank.jpg",
     "description": "A versatile Rosebank hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -157,7 +157,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 60,
     "accommodation": "yes",
-    "image": "assets/images/properties/The Peech Hotel.jpg",
+    "image": "assets/Images/properties/The Peech Hotel.jpg",
     "description": "A versatile Melrose hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -174,7 +174,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 40,
     "accommodation": "yes",
-    "image": "assets/images/properties/Villa Moyal.jpg",
+    "image": "assets/Images/properties/Villa Moyal.jpg",
     "description": "A versatile Melrose hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -190,7 +190,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 60,
     "accommodation": "yes",
-    "image": "assets/images/properties/The Winston Hotel.jpg",
+    "image": "assets/Images/properties/The Winston Hotel.jpg",
     "description": "A versatile Melrose hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -206,7 +206,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 180,
     "accommodation": "yes",
-    "image": "assets/images/properties/Protea Hotel Fire & Ice! Johannesburg Melrose Arch.jpg",
+    "image": "assets/Images/properties/Protea Hotel Fire & Ice! Johannesburg Melrose Arch.jpg",
     "description": "A versatile Melrose hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -224,7 +224,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 200,
     "accommodation": "yes",
-    "image": "assets/images/properties/African Pride Melrose Arch, Autograph Collection.jpg",
+    "image": "assets/Images/properties/African Pride Melrose Arch, Autograph Collection.jpg",
     "description": "A versatile Melrose hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -240,7 +240,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 150,
     "accommodation": "yes",
-    "image": "assets/images/properties/Villa Simonne Boutique Hotel.jpg",
+    "image": "assets/Images/properties/Villa Simonne Boutique Hotel.jpg",
     "description": "A versatile Houghton hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -256,7 +256,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 100,
     "accommodation": "yes",
-    "image": "assets/images/properties/The Houghton Hotel.jpg",
+    "image": "assets/Images/properties/The Houghton Hotel.jpg",
     "description": "A versatile Houghton hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -273,7 +273,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 150,
     "accommodation": "yes",
-    "image": "assets/images/properties/The Residence.jpg",
+    "image": "assets/Images/properties/The Residence.jpg",
     "description": "A versatile Houghton hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -290,7 +290,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 100,
     "accommodation": "yes",
-    "image": "assets/images/properties/10 2nd Avenue Houghton Estate.jpg",
+    "image": "assets/Images/properties/10 2nd Avenue Houghton Estate.jpg",
     "description": "A versatile Houghton hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -306,7 +306,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 100,
     "accommodation": "yes",
-    "image": "assets/images/properties/The Munro Boutique Hotel.jpg",
+    "image": "assets/Images/properties/The Munro Boutique Hotel.jpg",
     "description": "A versatile Houghton hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -323,7 +323,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 150,
     "accommodation": "yes",
-    "image": "assets/images/properties/Mongena Game Lodge.jpg",
+    "image": "assets/Images/properties/Mongena Game Lodge.jpg",
     "description": "A versatile Dinokeng Game Reserve hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -339,7 +339,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 40,
     "accommodation": "yes",
-    "image": "assets/images/properties/The Capital Zimbali Resort.jpg",
+    "image": "assets/Images/properties/The Capital Zimbali Resort.jpg",
     "description": "A versatile Shakas Rock hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -373,7 +373,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 200,
     "accommodation": "yes",
-    "image": "assets/images/properties/McDonalds Lodge and Boutique Hotel.jpg",
+    "image": "assets/Images/properties/McDonalds Lodge and Boutique Hotel.jpg",
     "description": "A versatile Glenwood hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -389,7 +389,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 500,
     "accommodation": "yes",
-    "image": "assets/images/properties/Golden Horse Casino Hotel.jpg",
+    "image": "assets/Images/properties/Golden Horse Casino Hotel.jpg",
     "description": "A versatile Pietermaritzburg hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -406,7 +406,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 100,
     "accommodation": "yes",
-    "image": "assets/images/properties/The Westville Hotel.jpg",
+    "image": "assets/Images/properties/The Westville Hotel.jpg",
     "description": "A versatile Westville hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -423,7 +423,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 300,
     "accommodation": "yes",
-    "image": "assets/images/properties/The Royal Hotel Durban.jpg",
+    "image": "assets/Images/properties/The Royal Hotel Durban.jpg",
     "description": "A versatile Durban hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -439,7 +439,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 300,
     "accommodation": "yes",
-    "image": "assets/images/properties/Canelands Beach Club.jpg",
+    "image": "assets/Images/properties/Canelands Beach Club.jpg",
     "description": "A versatile Salt Rock hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -456,7 +456,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 300,
     "accommodation": "yes",
-    "image": "assets/images/properties/Kloof Country Club.jpg",
+    "image": "assets/Images/properties/Kloof Country Club.jpg",
     "description": "A versatile Kloof hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -472,7 +472,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 250,
     "accommodation": "yes",
-    "image": "assets/images/properties/Ingeli Forest Lodge.jpg",
+    "image": "assets/Images/properties/Ingeli Forest Lodge.jpg",
     "description": "A versatile Kokstad hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -489,7 +489,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 300,
     "accommodation": "yes",
-    "image": "assets/images/properties/Tropicana Hotel Durban.jpg",
+    "image": "assets/Images/properties/Tropicana Hotel Durban.jpg",
     "description": "A versatile Durban hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -506,7 +506,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 500,
     "accommodation": "yes",
-    "image": "assets/images/properties/Southern Sun Elangeni & Maharani.jpg",
+    "image": "assets/Images/properties/Southern Sun Elangeni & Maharani.jpg",
     "description": "A versatile Durban hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -522,7 +522,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 450,
     "accommodation": "yes",
-    "image": "assets/images/properties/Coastlands Umhlanga Hotel.jpg",
+    "image": "assets/Images/properties/Coastlands Umhlanga Hotel.jpg",
     "description": "A versatile Umhlanga Rocks hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -538,7 +538,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 150,
     "accommodation": "yes",
-    "image": "assets/images/properties/Sante Hotel Resort and Spa.jpg",
+    "image": "assets/Images/properties/Sante Hotel Resort and Spa.jpg",
     "description": "A versatile Paarl hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -556,7 +556,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 40,
     "accommodation": "yes",
-    "image": "assets/images/properties/Grand Daddy Hotel.jpg",
+    "image": "assets/Images/properties/Grand Daddy Hotel.jpg",
     "description": "A versatile Cape Town hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -572,7 +572,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 50,
     "accommodation": "yes",
-    "image": "assets/images/properties/Windtown Lagoon Resort and Spa.jpeg",
+    "image": "assets/Images/properties/Windtown Lagoon Resort and Spa.jpeg",
     "description": "A versatile Langebaan hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -588,7 +588,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 300,
     "accommodation": "yes",
-    "image": "assets/images/properties/One&Only Cape Town.jpg",
+    "image": "assets/Images/properties/One&Only Cape Town.jpg",
     "description": "A versatile V&A Waterfront hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -605,7 +605,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 180,
     "accommodation": "yes",
-    "image": "assets/images/properties/Shelley Point Hotel Country Club and Spa.jpg",
+    "image": "assets/Images/properties/Shelley Point Hotel Country Club and Spa.jpg",
     "description": "A versatile St Helena Bay hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -622,7 +622,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 120,
     "accommodation": "yes",
-    "image": "assets/images/properties/Oude Molen Distillery.jpg",
+    "image": "assets/Images/properties/Oude Molen Distillery.jpg",
     "description": "A versatile Grabouw hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -638,7 +638,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 1500,
     "accommodation": "yes",
-    "image": "assets/images/properties/Cape Town International Convention Centre.jpg",
+    "image": "assets/Images/properties/Cape Town International Convention Centre.jpg",
     "description": "A versatile Cape Town hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -655,7 +655,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 300,
     "accommodation": "yes",
-    "image": "assets/images/properties/The Table Bay Hotel.jpg",
+    "image": "assets/Images/properties/The Table Bay Hotel.jpg",
     "description": "A versatile V&A Waterfront hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -671,7 +671,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 350,
     "accommodation": "yes",
-    "image": "assets/images/properties/Arabella Hotel Golf & Spa.jpg",
+    "image": "assets/Images/properties/Arabella Hotel Golf & Spa.jpg",
     "description": "A versatile Hermanus hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -688,7 +688,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 400,
     "accommodation": "yes",
-    "image": "assets/images/properties/Spier Hotel and Wine Farm.jpg",
+    "image": "assets/Images/properties/Spier Hotel and Wine Farm.jpg",
     "description": "A versatile Stellenbosch hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -705,7 +705,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 600,
     "accommodation": "yes",
-    "image": "assets/images/properties/Lagoon Beach Hotel.jpg",
+    "image": "assets/Images/properties/Lagoon Beach Hotel.jpg",
     "description": "A versatile Milnerton hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -721,7 +721,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 350,
     "accommodation": "yes",
-    "image": "assets/images/properties/The President Hotel.jpg",
+    "image": "assets/Images/properties/The President Hotel.jpg",
     "description": "A versatile Bantry Bay hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -737,7 +737,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 20,
     "accommodation": "yes",
-    "image": "assets/images/properties/WarmKaros.jpg",
+    "image": "assets/Images/properties/WarmKaros.jpg",
     "description": "A versatile East London hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -755,7 +755,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 125,
     "accommodation": "yes",
-    "image": "assets/images/properties/La Cigale Country Estate.jpg",
+    "image": "assets/Images/properties/La Cigale Country Estate.jpg",
     "description": "A versatile Port Elizabeth hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -771,7 +771,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 100,
     "accommodation": "yes",
-    "image": "assets/images/properties/Tuinskloof Lodge.jpg",
+    "image": "assets/Images/properties/Tuinskloof Lodge.jpg",
     "description": "A versatile Jeffreys Bay hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -787,7 +787,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 60,
     "accommodation": "yes",
-    "image": "assets/images/properties/Mandyville Hotel.jpg",
+    "image": "assets/Images/properties/Mandyville Hotel.jpg",
     "description": "A versatile Jeffreys Bay hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -804,7 +804,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 40,
     "accommodation": "yes",
-    "image": "assets/images/properties/Jagerhof Game Lodge.jpg",
+    "image": "assets/Images/properties/Jagerhof Game Lodge.jpg",
     "description": "A versatile Jeffreys Bay hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -821,7 +821,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 200,
     "accommodation": "yes",
-    "image": "assets/images/properties/Mentors Country Estate.jpg",
+    "image": "assets/Images/properties/Mentors Country Estate.jpg",
     "description": "A versatile Jeffreys Bay hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -837,7 +837,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 150,
     "accommodation": "yes",
-    "image": "assets/images/properties/Cape St Francis Resort.jpg",
+    "image": "assets/Images/properties/Cape St Francis Resort.jpg",
     "description": "A versatile Cape St Francis hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -854,7 +854,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 150,
     "accommodation": "yes",
-    "image": "assets/images/properties/Tiffindell Ski Resort.jpg",
+    "image": "assets/Images/properties/Tiffindell Ski Resort.jpg",
     "description": "A versatile Barkly East hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -870,7 +870,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 100,
     "accommodation": "yes",
-    "image": "assets/images/properties/The Manderson Hotel and Conference Centre.jpg",
+    "image": "assets/Images/properties/The Manderson Hotel and Conference Centre.jpg",
     "description": "A versatile Stutterheim hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -887,7 +887,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 50,
     "accommodation": "yes",
-    "image": "assets/images/properties/Kings Lodge Hotel.jpg",
+    "image": "assets/Images/properties/Kings Lodge Hotel.jpg",
     "description": "A versatile Hogsback hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -904,7 +904,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 600,
     "accommodation": "yes",
-    "image": "assets/images/properties/Boardwalk Hotel and Convention Centre.jpg",
+    "image": "assets/Images/properties/Boardwalk Hotel and Convention Centre.jpg",
     "description": "A versatile Gqeberha hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -920,7 +920,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 700,
     "accommodation": "yes",
-    "image": "assets/images/properties/Premier Hotel East London ICC.jpg",
+    "image": "assets/Images/properties/Premier Hotel East London ICC.jpg",
     "description": "A versatile East London hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -936,7 +936,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 120,
     "accommodation": "yes",
-    "image": "assets/images/properties/La Rochelle Guest Ranch.jpg",
+    "image": "assets/Images/properties/La Rochelle Guest Ranch.jpg",
     "description": "A versatile Middelburg hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -954,7 +954,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 250,
     "accommodation": "yes",
-    "image": "assets/images/properties/Kruger Gate Hotel.jpg",
+    "image": "assets/Images/properties/Kruger Gate Hotel.jpg",
     "description": "A versatile Kruger National Park hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -970,7 +970,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 300,
     "accommodation": "yes",
-    "image": "assets/images/properties/Sabi River Sun Resort.jpg",
+    "image": "assets/Images/properties/Sabi River Sun Resort.jpg",
     "description": "A versatile Hazyview hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -986,7 +986,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 220,
     "accommodation": "yes",
-    "image": "assets/images/properties/ANEW Resort White River.jpg",
+    "image": "assets/Images/properties/ANEW Resort White River.jpg",
     "description": "A versatile White River hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1003,7 +1003,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 350,
     "accommodation": "yes",
-    "image": "assets/images/properties/Emnotweni Casino Hotel.jpg",
+    "image": "assets/Images/properties/Emnotweni Casino Hotel.jpg",
     "description": "A versatile Nelspruit hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1020,7 +1020,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 100,
     "accommodation": "yes",
-    "image": "assets/images/properties/Casterbridge Hollow Boutique Hotel.jpg",
+    "image": "assets/Images/properties/Casterbridge Hollow Boutique Hotel.jpg",
     "description": "A versatile White River hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1053,7 +1053,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 250,
     "accommodation": "yes",
-    "image": "assets/images/properties/Protea Hotel Kruger Gate.jpg",
+    "image": "assets/Images/properties/Protea Hotel Kruger Gate.jpg",
     "description": "A versatile Skukuza hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1069,7 +1069,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 180,
     "accommodation": "yes",
-    "image": "assets/images/properties/Dunkeld Country & Equestrian Estate.jpg",
+    "image": "assets/Images/properties/Dunkeld Country & Equestrian Estate.jpg",
     "description": "A versatile Dullstroom hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1086,7 +1086,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 120,
     "accommodation": "yes",
-    "image": "assets/images/properties/Walkersons Hotel & Spa.jpg",
+    "image": "assets/Images/properties/Walkersons Hotel & Spa.jpg",
     "description": "A versatile Dullstroom hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1103,7 +1103,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 280,
     "accommodation": "yes",
-    "image": "assets/images/properties/Southern Sun Mbombela.jpg",
+    "image": "assets/Images/properties/Southern Sun Mbombela.jpg",
     "description": "A versatile Mbombela hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1119,7 +1119,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 180,
     "accommodation": "yes",
-    "image": "assets/images/properties/Loskop Valley Lodge.jpg",
+    "image": "assets/Images/properties/Loskop Valley Lodge.jpg",
     "description": "A versatile Groblersdal hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1135,7 +1135,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 500,
     "accommodation": "yes",
-    "image": "assets/images/properties/Meropa Casino and Entertainment World.jpg",
+    "image": "assets/Images/properties/Meropa Casino and Entertainment World.jpg",
     "description": "A versatile Polokwane hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1153,7 +1153,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 350,
     "accommodation": "yes",
-    "image": "assets/images/properties/Protea Hotel Polokwane Ranch Resort.jpg",
+    "image": "assets/Images/properties/Protea Hotel Polokwane Ranch Resort.jpg",
     "description": "A versatile Polokwane hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1169,7 +1169,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 100,
     "accommodation": "yes",
-    "image": "assets/images/properties/Fusion Boutique Hotel.jpg",
+    "image": "assets/Images/properties/Fusion Boutique Hotel.jpg",
     "description": "A versatile Polokwane hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1185,7 +1185,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 180,
     "accommodation": "yes",
-    "image": "assets/images/properties/Coach House Hotel & Spa.jpg",
+    "image": "assets/Images/properties/Coach House Hotel & Spa.jpg",
     "description": "A versatile Tzaneen hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1202,7 +1202,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 800,
     "accommodation": "yes",
-    "image": "assets/images/properties/Forever Resort Warmbaths.jpg",
+    "image": "assets/Images/properties/Forever Resort Warmbaths.jpg",
     "description": "A versatile Bela Bela hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1219,7 +1219,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 350,
     "accommodation": "yes",
-    "image": "assets/images/properties/Legend Golf & Safari Resort.jpg",
+    "image": "assets/Images/properties/Legend Golf & Safari Resort.jpg",
     "description": "A versatile Mokopane hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1235,7 +1235,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 120,
     "accommodation": "yes",
-    "image": "assets/images/properties/Safari Plains.jpg",
+    "image": "assets/Images/properties/Safari Plains.jpg",
     "description": "A versatile Bela Bela hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1252,7 +1252,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 300,
     "accommodation": "yes",
-    "image": "assets/images/properties/Zebula Golf Estate & Spa.jpg",
+    "image": "assets/Images/properties/Zebula Golf Estate & Spa.jpg",
     "description": "A versatile Bela Bela hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1268,7 +1268,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 100,
     "accommodation": "yes",
-    "image": "assets/images/properties/Shiduli Private Game Lodge.jpg",
+    "image": "assets/Images/properties/Shiduli Private Game Lodge.jpg",
     "description": "A versatile Hoedspruit hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1285,7 +1285,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 90,
     "accommodation": "yes",
-    "image": "assets/images/properties/Karongwe River Lodge.jpg",
+    "image": "assets/Images/properties/Karongwe River Lodge.jpg",
     "description": "A versatile Hoedspruit hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1302,7 +1302,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 350,
     "accommodation": "yes",
-    "image": "assets/images/properties/Tshipise Forever Resort.jpg",
+    "image": "assets/Images/properties/Tshipise Forever Resort.jpg",
     "description": "A versatile Tshipise hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1318,7 +1318,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 220,
     "accommodation": "yes",
-    "image": "assets/images/properties/Magoebaskloof Hotel.jpg",
+    "image": "assets/Images/properties/Magoebaskloof Hotel.jpg",
     "description": "A versatile Magoebaskloof hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1334,7 +1334,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 150,
     "accommodation": "yes",
-    "image": "assets/images/properties/Amanzingwe Lodge.jpg",
+    "image": "assets/Images/properties/Amanzingwe Lodge.jpg",
     "description": "A versatile Hartbeespoort hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1352,7 +1352,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 1500,
     "accommodation": "yes",
-    "image": "assets/images/properties/Sun City Convention Centre.jpg",
+    "image": "assets/Images/properties/Sun City Convention Centre.jpg",
     "description": "A versatile Sun City hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1368,7 +1368,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 500,
     "accommodation": "yes",
-    "image": "assets/images/properties/The Palace of the Lost City.jpg",
+    "image": "assets/Images/properties/The Palace of the Lost City.jpg",
     "description": "A versatile Sun City hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1384,7 +1384,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 300,
     "accommodation": "yes",
-    "image": "assets/images/properties/Kwa Maritane Bush Lodge.jpg",
+    "image": "assets/Images/properties/Kwa Maritane Bush Lodge.jpg",
     "description": "A versatile Pilanesberg hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1401,7 +1401,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 250,
     "accommodation": "yes",
-    "image": "assets/images/properties/Bakubung Bush Lodge.jpg",
+    "image": "assets/Images/properties/Bakubung Bush Lodge.jpg",
     "description": "A versatile Pilanesberg hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1418,7 +1418,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 350,
     "accommodation": "yes",
-    "image": "assets/images/properties/The Royal Marang Hotel.jpg",
+    "image": "assets/Images/properties/The Royal Marang Hotel.jpg",
     "description": "A versatile Rustenburg hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1434,7 +1434,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 220,
     "accommodation": "yes",
-    "image": "assets/images/properties/Kedar Heritage Lodge.jpg",
+    "image": "assets/Images/properties/Kedar Heritage Lodge.jpg",
     "description": "A versatile Rustenburg hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1451,7 +1451,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 250,
     "accommodation": "yes",
-    "image": "assets/images/properties/Seasons Golf Leisure & Spa.jpg",
+    "image": "assets/Images/properties/Seasons Golf Leisure & Spa.jpg",
     "description": "A versatile Hartbeespoort hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1467,7 +1467,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 300,
     "accommodation": "yes",
-    "image": "assets/images/properties/The Venue Country Hotel.jpg",
+    "image": "assets/Images/properties/The Venue Country Hotel.jpg",
     "description": "A versatile Hartbeespoort hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1484,7 +1484,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 250,
     "accommodation": "yes",
-    "image": "assets/images/properties/Protea Hotel Mahikeng.jpg",
+    "image": "assets/Images/properties/Protea Hotel Mahikeng.jpg",
     "description": "A versatile Mahikeng hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1501,7 +1501,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 400,
     "accommodation": "yes",
-    "image": "assets/images/properties/Rio Hotel Casino and Convention Resort.jpg",
+    "image": "assets/Images/properties/Rio Hotel Casino and Convention Resort.jpg",
     "description": "A versatile Klerksdorp hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1517,7 +1517,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 300,
     "accommodation": "yes",
-    "image": "assets/images/properties/Potchefstroom Country Club.jpg",
+    "image": "assets/Images/properties/Potchefstroom Country Club.jpg",
     "description": "A versatile Potchefstroom hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1533,7 +1533,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 250,
     "accommodation": "yes",
-    "image": "assets/images/properties/Protea Hotel Kimberley.jpeg",
+    "image": "assets/Images/properties/Protea Hotel Kimberley.jpeg",
     "description": "A versatile Kimberley hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1551,7 +1551,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 150,
     "accommodation": "yes",
-    "image": "assets/images/properties/Kimberley Anne Hotel.jpg",
+    "image": "assets/Images/properties/Kimberley Anne Hotel.jpg",
     "description": "A versatile Kimberley hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1567,7 +1567,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 300,
     "accommodation": "yes",
-    "image": "assets/images/properties/Garden Court Kimberley.jpg",
+    "image": "assets/Images/properties/Garden Court Kimberley.jpg",
     "description": "A versatile Kimberley hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1583,7 +1583,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 180,
     "accommodation": "yes",
-    "image": "assets/images/properties/Kalahari Protea Hotel.jpg",
+    "image": "assets/Images/properties/Kalahari Protea Hotel.jpg",
     "description": "A versatile Upington hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1600,7 +1600,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 350,
     "accommodation": "yes",
-    "image": "assets/images/properties/Desert Palace Hotel & Casino Resort.jpg",
+    "image": "assets/Images/properties/Desert Palace Hotel & Casino Resort.jpg",
     "description": "A versatile Upington hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1617,7 +1617,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 120,
     "accommodation": "yes",
-    "image": "assets/images/properties/Kathu Inn.jpg",
+    "image": "assets/Images/properties/Kathu Inn.jpg",
     "description": "A versatile Kathu hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1633,7 +1633,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 120,
     "accommodation": "yes",
-    "image": "assets/images/properties/Kuruman Inn.jpg",
+    "image": "assets/Images/properties/Kuruman Inn.jpg",
     "description": "A versatile Kuruman hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1650,7 +1650,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 180,
     "accommodation": "yes",
-    "image": "assets/images/properties/Red Sands Country Lodge.jpg",
+    "image": "assets/Images/properties/Red Sands Country Lodge.jpg",
     "description": "A versatile Kuruman hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1666,7 +1666,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 120,
     "accommodation": "yes",
-    "image": "assets/images/properties/The Kimberley Club.jpg",
+    "image": "assets/Images/properties/The Kimberley Club.jpg",
     "description": "A versatile Kimberley hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1683,7 +1683,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 150,
     "accommodation": "yes",
-    "image": "assets/images/properties/Augrabies Falls Lodge.jpg",
+    "image": "assets/Images/properties/Augrabies Falls Lodge.jpg",
     "description": "A versatile Augrabies hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1700,7 +1700,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 160,
     "accommodation": "yes",
-    "image": "assets/images/properties/Springbok Inn.jpg",
+    "image": "assets/Images/properties/Springbok Inn.jpg",
     "description": "A versatile Springbok hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1716,7 +1716,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 100,
     "accommodation": "yes",
-    "image": "assets/images/properties/De Aar Guest House and Conference Centre.jpg",
+    "image": "assets/Images/properties/De Aar Guest House and Conference Centre.jpg",
     "description": "A versatile De Aar hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1732,7 +1732,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 300,
     "accommodation": "yes",
-    "image": "assets/images/properties/Sandstone Sleeper Estate.jpg",
+    "image": "assets/Images/properties/Sandstone Sleeper Estate.jpg",
     "description": "A versatile Bloemfontein hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1750,7 +1750,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 250,
     "accommodation": "yes",
-    "image": "assets/images/properties/Protea Hotel Bloemfontein.jpg",
+    "image": "assets/Images/properties/Protea Hotel Bloemfontein.jpg",
     "description": "A versatile Bloemfontein hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1766,7 +1766,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 350,
     "accommodation": "yes",
-    "image": "assets/images/properties/BON Hotel Bloemfontein Central.jpg",
+    "image": "assets/Images/properties/BON Hotel Bloemfontein Central.jpg",
     "description": "A versatile Bloemfontein hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1782,7 +1782,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 120,
     "accommodation": "yes",
-    "image": "assets/images/properties/Lejwe La Metsi Game Farm.jpg",
+    "image": "assets/Images/properties/Lejwe La Metsi Game Farm.jpg",
     "description": "A versatile Bloemfontein hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1799,7 +1799,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 250,
     "accommodation": "yes",
-    "image": "assets/images/properties/Golden Gate Hotel.jpg",
+    "image": "assets/Images/properties/Golden Gate Hotel.jpg",
     "description": "A versatile Clarens hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1832,7 +1832,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 300,
     "accommodation": "yes",
-    "image": "assets/images/properties/Black Mountain Hotel.jpg",
+    "image": "assets/Images/properties/Black Mountain Hotel.jpg",
     "description": "A versatile Thaba Nchu hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1849,7 +1849,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 250,
     "accommodation": "yes",
-    "image": "assets/images/properties/Pont de Val Riverside Escape.jpg",
+    "image": "assets/Images/properties/Pont de Val Riverside Escape.jpg",
     "description": "A versatile Parys hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1865,7 +1865,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 220,
     "accommodation": "yes",
-    "image": "assets/images/properties/Stonehenge River Lodge.jpg",
+    "image": "assets/Images/properties/Stonehenge River Lodge.jpg",
     "description": "A versatile Parys hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1882,7 +1882,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 100,
     "accommodation": "yes",
-    "image": "assets/images/properties/Willow Lake Guest House.jpg",
+    "image": "assets/Images/properties/Willow Lake Guest House.jpg",
     "description": "A versatile Bloemfontein hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1899,7 +1899,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 180,
     "accommodation": "yes",
-    "image": "assets/images/properties/Welkom Inn.jpg",
+    "image": "assets/Images/properties/Welkom Inn.jpg",
     "description": "A versatile Welkom hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",
@@ -1915,7 +1915,7 @@ window.TS_PROPERTIES=[
     "type": "Accommodation and Conference",
     "capacity": 300,
     "accommodation": "yes",
-    "image": "assets/images/properties/Gariep Dam Forever Resort.jpg",
+    "image": "assets/Images/properties/Gariep Dam Forever Resort.jpg",
     "description": "A versatile Gariep Dam hospitality and conference property suitable for corporate meetings, events, group accommodation and executive experiences.",
     "amenities": [
       "Conference",

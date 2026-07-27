@@ -4,7 +4,13 @@
   if (!toggle || !links) return;
 
   function closeMenu() { links.classList.remove('open'); toggle.setAttribute('aria-expanded', 'false'); }
-  function openMenu() { links.classList.add('open'); toggle.setAttribute('aria-expanded', 'true'); }
+  function openMenu() {
+    // Guard against any page-level horizontal scroll/overflow so the
+    // fixed mobile panel always opens flush with the left edge.
+    window.scrollTo({ left: 0, behavior: 'auto' });
+    links.classList.add('open');
+    toggle.setAttribute('aria-expanded', 'true');
+  }
   function closeDropdowns() {
     document.querySelectorAll('.nav-dropdown.open').forEach(function (o) { o.classList.remove('open'); });
   }
@@ -13,14 +19,18 @@
     if (links.classList.contains('open')) { closeMenu(); } else { openMenu(); }
   });
 
-  // Services (or any) dropdown: click toggles open/closed on ALL screen sizes
+  // Services dropdown: on mobile, tapping the trigger toggles the submenu open/closed.
+  // On desktop it still opens on hover (see CSS); click also works and follows through
+  // to the Services page if the dropdown is already open.
   document.querySelectorAll('.nav-dropdown').forEach(function (dd) {
     var trigger = dd.querySelector('a');
     trigger.addEventListener('click', function (e) {
-      e.preventDefault();
-      var isOpen = dd.classList.contains('open');
-      closeDropdowns();
-      if (!isOpen) dd.classList.add('open');
+      if (window.innerWidth <= 900) {
+        e.preventDefault();
+        var isOpen = dd.classList.contains('open');
+        closeDropdowns();
+        if (!isOpen) dd.classList.add('open');
+      }
     });
   });
 
@@ -46,6 +56,7 @@
   window.addEventListener('resize', function () {
     if (window.innerWidth > 900) {
       closeMenu();
+      closeDropdowns();
     }
   });
 })();
